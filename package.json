@@ -14,10 +14,11 @@
     "@amnis/eslint-config-node": "^2.0.0",
     "@amnis/tsconfig-node": "^2.0.0",
     "@types/jest": "^29.1.1",
+    "@vercel/ncc": "^0.34.0",
     "eslint": "^8.24.0",
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "ncc build src/index.ts --license licenses.txt -o dist"
   }
 }
