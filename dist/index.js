@@ -9661,7 +9661,12 @@ try {
     console.log(`The event payload: ${payload}`);
 }
 catch (error) {
-    _actions_core__WEBPACK_IMPORTED_MODULE_0___default().setFailed(error.message);
+    if (error) {
+        _actions_core__WEBPACK_IMPORTED_MODULE_0___default().setFailed(error);
+    }
+    else {
+        _actions_core__WEBPACK_IMPORTED_MODULE_0___default().setFailed('Unkown error');
+    }
 }
 
 })();
