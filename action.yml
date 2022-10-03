@@ -1,6 +1,6 @@
 name: 'Azure Key Vault Let''s Encrypt'
 description: 'Generates, signs, and merges certificates using Azure Key Vault and Let''s Encrypt'
-input:
+inputs:
   who-to-greet:
     description: 'Who to greet'
     required: true
