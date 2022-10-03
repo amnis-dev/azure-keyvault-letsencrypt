@@ -1,0 +1,23 @@
+{
+  "name": "@amnis/azure-keyvault-letsencrypt",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "git@github.com:amnis-dev/azure-keyvault-letsencrypt.git",
+  "author": "Eric Crowell",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  },
+  "devDependencies": {
+    "@amnis/eslint-config-node": "^2.0.0",
+    "@amnis/tsconfig-node": "^2.0.0",
+    "@types/jest": "^29.1.1",
+    "eslint": "^8.24.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

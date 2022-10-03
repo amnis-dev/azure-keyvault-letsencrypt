@@ -1,0 +1,13 @@
+name: 'Azure Key Vault Let\'s Encrypt'
+description: 'Generates, signs, and merges certificates using Azure Key Vault and Let\'s Encrypt'
+input:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time:
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'lib/index.js'

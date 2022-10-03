@@ -1,0 +1,8 @@
+{
+  "extends": "@amnis/tsconfig-node",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": false
+  },
+  "include": ["./src/**/*.ts*"]
+}

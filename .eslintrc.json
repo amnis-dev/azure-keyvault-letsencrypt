@@ -1,0 +1,4 @@
+{
+  "extends": "@amnis/eslint-config-node",
+  "ignorePatterns": ["lib/**/*.js"]
+}
